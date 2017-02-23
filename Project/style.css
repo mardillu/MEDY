@@ -1,0 +1,9 @@
+#login{
+	width: 50%;
+}
+#user{
+	text-align: center;
+}
+.table-active{
+	background-color: red;
+}
