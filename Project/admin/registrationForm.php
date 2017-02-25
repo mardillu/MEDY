@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Dashboard</title>
+        <title>Registration Form</title>
 
          <!-- Materialize css. Compiled and minified CSS -->
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
@@ -33,7 +33,7 @@
     </div>
   </nav>
   </div>
-<div class="alert alert-info" role="alert" style="text-align: center">Today's appointments</div>
+<div class="alert alert-info" role="alert" style="text-align: center">Patient Registration</div>
 
 <div class="container col-md-12">
 <div class="row">
@@ -41,7 +41,35 @@
     <div class="col-md-4">
         <div class="card-panel">
           <span class="white-text">
-              <div class="alert alert-info" role="alert" style="text-align: center;">Quick mail</div>
+              <div class="alert alert-info" role="alert" style="text-align: center;">Patient Information</div>
+              <form action="" method="post" accept-charset="utf-8">
+                  <div class="input-group input-group-sm">
+                  <span class="input-group-addon" id="sizing-addon1">First Name</span>
+                  <input type="email" class="form-control" placeholder="First Name" aria-describedby="sizing-addon1">
+                </div><br>
+                <div class="input-group input-group-sm">
+                  <span class="input-group-addon" id="sizing-addon1">Second Name</span>
+                  <input type="email" class="form-control" placeholder="Second Name" aria-describedby="sizing-addon1">
+                </div><br>
+                <div class="input-group input-group-sm">
+                  <span class="input-group-addon" id="sizing-addon1">Date of Birth</span>
+                  <input type="date" class="form-control" aria-describedby="sizing-addon1">
+                </div><br>
+                <div class="input-group input-group-sm">
+                  <span class="input-group-addon" id="sizing-addon1">Gender</span>
+                  <input type="radio" class="form-control" name ="gender" value = "f" aria-describedby="sizing-addon1">Female
+                  <input type="radio" class="form-control" name ="gender" value = "m" aria-describedby="sizing-addon1">Male
+                </div><br>
+  
+                </form>
+          </span>
+        </div>
+      </div>
+
+          <div class="col-md-4">
+        <div class="card-panel">
+          <span class="white-text">
+              <div class="alert alert-info" role="alert" style="text-align: center;">Physical Information</div>
               <form action="" method="post" accept-charset="utf-8">
                   <div class="input-group input-group-sm">
                   <span class="input-group-addon" id="sizing-addon1">To</span>
@@ -56,7 +84,6 @@
                   <textarea class="form-control" placeholder="Type your message" aria-describedby="sizing-addon1"></textarea>
                 </div><br>
                 <div class="input-group input-group-sm">
-                  <button type="submit" class="btn btn-info" aria-describedby="sizing-addon1" style="width: 100%"><span class="glyphicon glyphicon-send" aria-hidden="true"></span>Send</button>
                 </div>
                 </form>
           </span>
@@ -66,7 +93,7 @@
           <div class="col-md-4">
         <div class="card-panel">
           <span class="white-text">
-              <div class="alert alert-info" role="alert" style="text-align: center;">Quick mail</div>
+              <div class="alert alert-info" role="alert" style="text-align: center;">Screeening Tests</div>
               <form action="" method="post" accept-charset="utf-8">
                   <div class="input-group input-group-sm">
                   <span class="input-group-addon" id="sizing-addon1">To</span>
@@ -81,32 +108,6 @@
                   <textarea class="form-control" placeholder="Type your message" aria-describedby="sizing-addon1"></textarea>
                 </div><br>
                 <div class="input-group input-group-sm">
-                  <button type="submit" class="btn btn-info" aria-describedby="sizing-addon1" style="width: 100%"><span class="glyphicon glyphicon-send" aria-hidden="true"></span>Send</button>
-                </div>
-                </form>
-          </span>
-        </div>
-      </div>
-
-          <div class="col-md-4">
-        <div class="card-panel">
-          <span class="white-text">
-              <div class="alert alert-info" role="alert" style="text-align: center;">Quick mail</div>
-              <form action="" method="post" accept-charset="utf-8">
-                  <div class="input-group input-group-sm">
-                  <span class="input-group-addon" id="sizing-addon1">To</span>
-                  <input type="email" class="form-control" placeholder="Recipeint(s) email" aria-describedby="sizing-addon1">
-                </div><br>
-                <div class="input-group input-group-sm">
-                  <span class="input-group-addon" id="sizing-addon1">Subject</span>
-                  <input type="text" class="form-control" placeholder="Subject" aria-describedby="sizing-addon1">
-                </div><br>
-                <div class="input-group input-group-sm">
-                  <span class="input-group-addon" id="sizing-addon1">Message</span>
-                  <textarea class="form-control" placeholder="Type your message" aria-describedby="sizing-addon1"></textarea>
-                </div><br>
-                <div class="input-group input-group-sm">
-                  <button type="submit" class="btn btn-info" aria-describedby="sizing-addon1" style="width: 100%"><span class="glyphicon glyphicon-send" aria-hidden="true"></span>Send</button>
                 </div>
                 </form>
           </span>
@@ -115,6 +116,7 @@
     
     </div>
 </div>
+              <button type="submit" class="btn btn-info" aria-describedby="sizing-addon1" style="width: 100%"><span class="glyphicon glyphicon-send" aria-hidden="true"></span>Send</button>
 
 
 
