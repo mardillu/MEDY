@@ -14,25 +14,9 @@
 		<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
 	</head>
 	<body>
-	<ul id="dropdown1" class="dropdown-content" style="width: 200px">
-	  <li><a href="#!">Add patient</a></li>
-	  <li><a href="users.php">View registered patients</a></li>
-	  <li><a href="#!">Find a patient</a></li>
-	  <li class="divider"></li>
-	  <li><a href="#!">three</a></li>
-	</ul>
-	 <div class="navbar-fixed"> 
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo right">Logo</a>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="dashboard.php">Home</a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="dropdown1" data-constrainWidth="false">Patient<i class="material-icons right"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></a></li>
-        <li><a href="collapsible.html">Something</a></li>
-      </ul>
-    </div>
-  </nav>
-  </div>
+<?php
+  include '../header.php';
+?>
 <div class="alert alert-info" role="alert" style="text-align: center">Today's appointments</div>
 <table class="table table-hover table-striped">
   <thead>
