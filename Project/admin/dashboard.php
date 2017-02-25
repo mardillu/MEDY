@@ -8,29 +8,31 @@
 		<title>Dashboard</title>
 
 		 <!-- Materialize css. Compiled and minified CSS -->
-  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">        
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
 	</head>
 	<body>
 	<ul id="dropdown1" class="dropdown-content" style="width: 200px">
-	  <li><a href="">Add patient</a></li>
-	  <li><a href="">View registered patients</a></li>
-	  <li><a href="">Find a patient</a></li>
+	  <li><a href="#!">Add patient</a></li>
+	  <li><a href="users.php">View registered patients</a></li>
+	  <li><a href="#!">Find a patient</a></li>
 	  <li class="divider"></li>
 	  <li><a href="#!">three</a></li>
 	</ul>
+	 <div class="navbar-fixed"> 
   <nav>
     <div class="nav-wrapper">
       <a href="#" class="brand-logo right">Logo</a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="#">Home</a></li>
+        <li><a href="dashboard.php">Home</a></li>
         <li><a class="dropdown-button" href="#!" data-activates="dropdown1" data-constrainWidth="false">Patient<i class="material-icons right"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></i></a></li>
         <li><a href="collapsible.html">Something</a></li>
       </ul>
     </div>
   </nav>
+  </div>
 <div class="alert alert-info" role="alert" style="text-align: center">Today's appointments</div>
 <table class="table table-hover table-striped">
   <thead>
@@ -62,7 +64,8 @@
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
+      <td>Larry the Bird</td>
+      <td>Ezekiel</td>
       <td>Legon</td>
       <td>000</td>
       <td>View Details</td>
@@ -89,7 +92,7 @@
 				  <textarea class="form-control" placeholder="Type your message" aria-describedby="sizing-addon1"></textarea>
 				</div><br>
 				<div class="input-group input-group-sm">
-				  <input type="submit" class="btn btn-info" aria-describedby="sizing-addon1" style="width: 100%">
+				  <button type="submit" class="btn btn-info" aria-describedby="sizing-addon1" style="width: 100%"><span class="glyphicon glyphicon-send" aria-hidden="true"></span>Send</button>
 				</div>
 				</form>
           </span>
