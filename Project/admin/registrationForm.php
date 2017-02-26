@@ -112,8 +112,9 @@
     
     </div>
 </div>
-    <div><button type="submit" class="btn btn-info" aria-describedby="sizing-addon1" style="width: 20%" style="text-align: center"><span class="glyphicon glyphicon-send" aria-hidden="true"></span>Submit Form</button></div>
-
+  <center>
+    <div><button type="submit" class="btn btn-info" aria-describedby="sizing-addon1" style="width: 20%"><span class="glyphicon glyphicon-send" aria-hidden="true"></span>Submit Form</button></div>
+  </center>
 
 
 
