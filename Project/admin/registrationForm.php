@@ -21,7 +21,8 @@
 
 <div class="container col-md-12">
 <div class="row">
-    
+
+    <!-- Patient information -->
     <div class="col-md-4">
         <div class="card-panel">
           <span class="white-text">
@@ -41,17 +42,18 @@
                 </div><br>
                 <div class="input-group input-group-sm">
                   <span class="input-group-addon" id="sizing-addon1">Gender</span>
-                    <select name="gender">
-                      <option value="">Please select</option>
-                      <option value="female">Female</option>  
-                      <option value ="male">Male</option>
-                    </select>                
+                        <select class="form-control" id="sel1">
+                          <option>Male</option>
+                          <option>Female</option>
+                          <option>Other</option>
+                        </select>              
                 </div><br>
                 </form>
           </span>
         </div>
       </div>
 
+      <!-- Physical Information -->
           <div class="col-md-4">
         <div class="card-panel">
           <span class="white-text">
@@ -80,6 +82,7 @@
         </div>
       </div>
 
+        <!-- Screening Tests column -->
           <div class="col-md-4">
         <div class="card-panel">
           <span class="white-text">
@@ -114,6 +117,8 @@
     
     </div>
 </div>
+
+<!-- Submission button -->
   <center>
     <div><button type="submit" class="btn btn-info" aria-describedby="sizing-addon1" style="width: 20%"><span class="glyphicon glyphicon-send" aria-hidden="true"></span>Submit Form</button></div>
   </center><p>
