@@ -9,8 +9,8 @@
                 <h5 class="white-text">Developers</h5>
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="https://ezekielsebastinecv.wordpress.com/">Ezekiel Sebastine</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Ruth Karimi</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Nii Quartey</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://ruthkarimiresume.wordpress.com/">Ruth Karimi</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://niiquateboyequarteycvsite.wordpress.com">Nii Quartey</a></li>
                 </ul>
               </div>
             </div>
