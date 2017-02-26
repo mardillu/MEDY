@@ -41,10 +41,12 @@
                 </div><br>
                 <div class="input-group input-group-sm">
                   <span class="input-group-addon" id="sizing-addon1">Gender</span>
-                  <input type="radio" class="form-control" name ="gender" value = "f" aria-describedby="sizing-addon1">Female
-                  <input type="radio" class="form-control" name ="gender" value = "m" aria-describedby="sizing-addon1">Male
+                    <select name="gender">
+                      <option value="">Please select</option>
+                      <option value="female">Female</option>  
+                      <option value ="male">Male</option>
+                    </select>                
                 </div><br>
-  
                 </form>
           </span>
         </div>
@@ -57,11 +59,11 @@
               <form action="" method="post" accept-charset="utf-8">
                   <div class="input-group input-group-sm">
                   <span class="input-group-addon" id="sizing-addon1">Height</span>
-                  <input type="email" class="form-control" placeholder="height(cm)" aria-describedby="sizing-addon1">
+                  <input type="number" min = "0" class="form-control" placeholder="height(cm)" aria-describedby="sizing-addon1">
                 </div><br>
                 <div class="input-group input-group-sm">
                   <span class="input-group-addon" id="sizing-addon1">Weight</span>
-                  <input type="text" class="form-control" placeholder="Weight(kg)" aria-describedby="sizing-addon1">
+                  <input type="number" min= "0" class="form-control" placeholder="Weight(kg)" aria-describedby="sizing-addon1">
                 </div><br>
                 <div class="input-group input-group-sm">
                   <span class="input-group-addon" id="sizing-addon1">Blood Pressure</span>
@@ -85,11 +87,11 @@
               <form action="" method="post" accept-charset="utf-8">
                 <div class="input-group input-group-sm">
                   <span class="input-group-addon" id="sizing-addon1">Blood Level</span>
-                  <input type="email" class="form-control" placeholder="Blood level" aria-describedby="sizing-addon1">
+                  <input type="text" class="form-control" placeholder="Blood level" aria-describedby="sizing-addon1">
                 </div><br>
                 <div class="input-group input-group-sm">
                   <span class="input-group-addon" id="sizing-addon1">Malaria Results</span>
-                  <input type="email" class="form-control" placeholder="Malaria Results" aria-describedby="sizing-addon1">
+                  <input type="text" class="form-control" placeholder="Malaria Results" aria-describedby="sizing-addon1">
                 </div><br>
                 <div class="input-group input-group-sm">
                   <span class="input-group-addon" id="sizing-addon1">Typhoid Results</span>
@@ -114,17 +116,10 @@
 </div>
   <center>
     <div><button type="submit" class="btn btn-info" aria-describedby="sizing-addon1" style="width: 20%"><span class="glyphicon glyphicon-send" aria-hidden="true"></span>Submit Form</button></div>
-  </center>
-
-
-
-
-
-
-
-
-
-
+  </center><p>
+<?php
+      include "footer.php";
+    ?>
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <!-- Bootstrap JavaScript -->
