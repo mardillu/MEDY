@@ -1,13 +1,14 @@
      <div class="navbar-fixed"> 
   <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo right">Logo</a>
+      <a href="dashboard.php"
+      <img src="../images/logo.PNG" class="brand-logo right" height="120" width="120" alt="Logo" style="margin-top: -30px"></a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="dashboard.php">Home</a></li>
-        <li><a href="">Add patient</a></li>
+        <li><a href="dashboard.php" style="text-decoration: none">Home</a></li>
+        <li><a href="registrationForm.php">Add patient</a></li>
         <li><a href="users.php">View registered patients</a></li>
 		<li>
-			<div class="row" >
+			<div class="row" style="margin-left: 10px">
 			    <form class="col s12">
 			      <div class="row">
 			        <div class="input-field col s12" style="background-color: white;color: black">
