@@ -15,7 +15,7 @@
     </head>
     <body>
     <?php
-      include "header.php";
+      include "../header.php";
     ?>
 <div class="alert alert-info" role="alert" style="text-align: center">PATIENT REGISTRATION</div>
 
@@ -123,7 +123,7 @@
     <div><button type="submit" class="btn btn-info" aria-describedby="sizing-addon1" style="width: 20%"><span class="glyphicon glyphicon-send" aria-hidden="true"></span>Submit Form</button></div>
   </center><p>
 <?php
-      include "footer.php";
+      include "../footer.php";
     ?>
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

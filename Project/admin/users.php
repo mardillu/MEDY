@@ -164,6 +164,15 @@
   </tbody>
 </table>
 
+<?php
+  include '../footer.php';
+?>
+
+<script>
+  $( document ).ready(function(){
+    $(".button-collapse").sideNav();
+  })
+</script>
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<!-- Bootstrap JavaScript -->
@@ -171,4 +180,4 @@
 		<!-- Materialize JavaScript. Compiled and minified JavaScript -->
   		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 	</body>
-</html>1.php
+</html>
